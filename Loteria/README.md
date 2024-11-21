@@ -21,7 +21,7 @@ A continuación, se describe el flujo del programa y las clases principales.
 
 ### Clase `LoteriaCard.java`
 
-![Clase LoteriaCard](Loteria/images/Loteriacard.png)
+![Clase LoteriaCard](/Loteria/images/Loteriacard.png)
 
 - **Propósito**: Representa cada carta de la lotería mexicana.
 - **Detalles**:
@@ -34,21 +34,21 @@ La clase `Main` contiene la lógica principal del programa, estructurada de la s
 
 #### 1. Arreglo de Nombres de las Cartas
 
-![Arreglo de nombres](Loteria/images/String.png)
+![Arreglo de nombres](/Loteria/images/String.png)
 
 - **Propósito**: Define los nombres de las 54 cartas de la lotería mexicana.
 - **Función**: Permite iterar sobre este arreglo para crear objetos de la clase `LoteriaCard`.
 
 #### 2. Creación del Conjunto de Cartas
 
-![Conjunto de cartas](Loteria/images/22.png)
+![Conjunto de cartas](/Loteria/images/22.png)
 
 - **Propósito**: Crea un conjunto (`ArraySet`) que almacena todas las cartas.
 - **Detalles**: Usa el tipo genérico `LoteriaCard` para garantizar que solo se agreguen objetos de esta clase.
 
 #### 3. Agregar Cartas al Conjunto
 
-![Agregar cartas](Loteria/images/forstring.png)
+![Agregar cartas](/Loteria/images/forstring.png)
 
 - **Propósito**: Recorre el arreglo de nombres y:
   1. Crea una instancia de `LoteriaCard` para cada nombre.
@@ -56,14 +56,14 @@ La clase `Main` contiene la lógica principal del programa, estructurada de la s
 
 #### 4. Mostrar Todas las Cartas
 
-![Mostrar cartas](Loteria/images/sout.png)
+![Mostrar cartas](/Loteria/images/sout.png)
 
 - **Propósito**: Imprime todas las cartas presentes en el conjunto.
 - **Detalles**: Utiliza el método `toString()` del conjunto para recorrer los elementos y mostrar su representación en texto.
 
 #### 5. Sacar Cartas de Forma Aleatoria
 
-![Extracción aleatoria](Loteria/images/random.png)
+![Extracción aleatoria](/Loteria/images/random.png)
 
 - **Propósito**:
   1. Utiliza un bucle `while` para extraer cartas hasta que el conjunto esté vacío.
